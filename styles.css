@@ -61,8 +61,8 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    /* margin-right: -90px;
-    margin-left: -90px; */
+    margin-right: 90px;
+    margin-left: 90px;
     padding-top: 8px;
     padding-bottom: 8px;
     -webkit-box-orient: vertical;
@@ -312,8 +312,9 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     border-radius: 20px;
 }
 
+/* project icon */
 .image-4 {
-    margin-left: 50px;
+    margin-left: 120px;
     padding-left: 0px;
     border-radius: 20px;
 }
@@ -590,6 +591,7 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     background-color: hsla(0, 0%, 100%, 0.8);
 }
 
+/* header */
 .container-6 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -604,6 +606,7 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    margin-right: 90px;
 }
 
 .button-5 {
@@ -634,9 +637,10 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     border-radius: 100%;
 }
 
+/* memoji */
 .image-6.my-mioji {
     margin-right: -30px;
-    margin-left: -30px;
+    margin-left: 90px;
 }
 
 .div-block-2 {
@@ -1878,8 +1882,10 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     }
 
     .image-4 {
+    margin-left: 80px;
     display: block;
     margin: auto;
+    border-radius: 20px;
     }
 
     .heading-5 {
