@@ -61,8 +61,10 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 90px;
-    margin-left: 90px;
+    /* margin-right: 90px;
+    margin-left: 90px; */
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 8px;
     padding-bottom: 8px;
     -webkit-box-orient: vertical;
@@ -79,7 +81,7 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     line-height: 25px;
 }
 
-/* screen size tiny */
+/* screen size tiny
 @media (min-width: 300px) and (max-width: 765px) {
     .body {
         max-width: fit-content;
@@ -87,16 +89,16 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
         margin-left: 3px;
         
     }
-}
+} */
 
 /* screen size small */
-@media (max-width: 768px) { 
+/* @media (max-width: 768px) { 
     .body {
         margin-right: 20px;
         margin-left: 20px;
         padding: 0px;
     }
-}
+} */
 
 .landing-section {
     margin-top: 10px;
@@ -314,7 +316,7 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
 
 /* project icon */
 .image-4 {
-    margin-left: 120px;
+    
     padding-left: 0px;
     border-radius: 20px;
 }
@@ -639,8 +641,8 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
 
 /* memoji */
 .image-6.my-mioji {
-    margin-right: -30px;
-    margin-left: 90px;
+    /* margin-right: -30px;
+    margin-left: 90px; */
 }
 
 .div-block-2 {
@@ -1458,7 +1460,7 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 60px;
+    /* margin-right: 60px; */
     margin-left: 60px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1504,7 +1506,13 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     }
 }
 
+/* ipad screen */
 @media screen and (max-width: 767px) {
+    .body {
+        padding: inherit;
+        margin: inherit;
+    }
+
     .heading {
     position: relative;
     left: -63px;
@@ -1695,9 +1703,10 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     flex-direction: column;
     }
 
+    /* head link wrapper after small screen */
     .link-wrapper {
-    margin-right: 81px;
-    margin-left: 81px;
+    /* margin-right: 81px;
+    margin-left: 81px; */
     }
 
     .bold-text-2 {
@@ -1771,6 +1780,24 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
 }
 
 @media screen and (max-width: 479px) {
+    .text-block-6{
+    font-family: 'Courier Prime', sans-serif;
+    color: #fff;
+    font-size: 23px;
+    padding-right: 20px;
+    }
+
+    .body {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .landing-section {
+        padding: inherit;
+    }
+
     .heading {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1837,7 +1864,6 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     }
 
     .about-me-section {
-    padding-top: 80px;
     padding-bottom: 80px;
     }
 
@@ -1847,8 +1873,7 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     display: -ms-flexbox;
     display: flex;
     margin-top: 21px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 15px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1866,8 +1891,8 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 99px;
-    margin-left: 99px;
+    margin: auto;
+    padding: 15px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1914,10 +1939,17 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     align-items: center;
     }
 
+    /* small screen paragraph DEALIO */
     .paragraph-2 {
-    margin-right: 100px;
-    margin-left: 100px;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: inherit;
+    padding-right: inherit;
+    padding-top: 10px;
+
     }
+    
 
     .container-2 {
     display: -webkit-box;
@@ -2059,8 +2091,8 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     }
 
     .link-wrapper {
-    margin-right: 21px;
-    margin-left: 21px;
+    margin: auto;
+    padding-bottom: 10px;
     }
 
     .link-7 {
