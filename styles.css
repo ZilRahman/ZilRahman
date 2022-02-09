@@ -81,25 +81,6 @@ Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the
     line-height: 25px;
 }
 
-/* screen size tiny
-@media (min-width: 300px) and (max-width: 765px) {
-    .body {
-        max-width: fit-content;
-        margin-right: 3px;
-        margin-left: 3px;
-        
-    }
-} */
-
-/* screen size small */
-/* @media (max-width: 768px) { 
-    .body {
-        margin-right: 20px;
-        margin-left: 20px;
-        padding: 0px;
-    }
-} */
-
 .landing-section {
     margin-top: 10px;
     margin-bottom: 10px;
